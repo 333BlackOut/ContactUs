@@ -1,0 +1,76 @@
+body{
+    height: 100%;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-image: url("Background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    padding-top: 10%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+section{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding-bottom: 3%;
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    box-shadow: 5px 5px 10px black;
+}
+#heading{
+    color:greenyellow;
+    text-shadow: 50px;
+    margin-bottom: 20%;
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: italic;
+}
+#name, #email{
+    width: 42%;
+    margin: 1%;
+}
+#subject{
+    width: 90%;
+    margin-bottom: 1%;
+}
+#message{
+    width: 90%;
+    margin-bottom: 1%;
+}
+#query{
+    width: 90%;
+}
+#submit{
+    width: 30%;
+    padding: 2%;
+    margin-top: 10%;
+    border: 1px dashed darkgreen;
+    border-radius: 7px;
+    color: greenyellow;
+    background-color: transparent;
+}
+#submit:hover{
+    background-color: greenyellow;
+    color: chocolate;
+}
+input{
+    border: 1px dashed darkgreen;
+    border-radius: 7px;
+}
+textarea{
+    border: 1px dashed darkgreen;
+    border-radius: 7px;
+    resize: none;
+}

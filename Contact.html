@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css"/>
+    <script defer src="Contact.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main id="main">
+        <section>
+            <h1 id="heading">
+                CONTACT US
+            </h1>
+            <form id="contact" onsubmit="NextPage();return false">
+                <input type="text" name="name" pattern="[a-zA-Z ]+" placeholder="Name" id="name" required/>
+                <input type="email" name="email" placeholder="E-mail" id="email" required/>
+                <input type="text" name="sub" placeholder="Subject" id="subject" required/>
+                <input type="text" name="mess" placeholder="Your Message" id="message" required/>
+                <textarea rows="5" maxlength="300" placeholder="Type your queries here" name="query" id="query"></textarea>
+                <button type="submit" name="submit" onclick="NextPage()" id="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
